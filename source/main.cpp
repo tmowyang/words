@@ -6,7 +6,7 @@ int main()
 	Iw2DInit();
 
 	// Create an image from a PNG file
-	CIw2DImage* image = Iw2DCreateImage("textures/letter_T.png");
+	CIw2DImage* image = Iw2DCreateImage("textures/letter_A.png");
 
 	// Loop forever, until the user or the OS performs some action to quit the app
 	while (!s3eDeviceCheckQuitRequest())

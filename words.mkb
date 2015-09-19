@@ -1,11 +1,19 @@
 #!/usr/bin/env mkb
- 
+
 subprojects
 {
     iw2d
 }
- 
+
 files
 {
-    source/main.cpp
+    [source]
+    (source)
+    main.cpp
+}
+
+assets
+{
+    (data)
+    textures
 }
