@@ -1,4 +1,0 @@
-﻿     Creating library Debug_words_vc12x_x86\words.lib and object Debug_words_vc12x_x86\words.exp
-  words_vc12x.vcxproj -> C:\Users\Jordan\Documents\GitHub\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86
-  C:\Marmalade\7.8\s3e\python\python.exe .\process_map.py "C:\Users\Jordan\Documents\GitHub\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86"
-  "s3e_plink" -l "C:\Users\Jordan\Documents\GitHub\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86" 

@@ -1,2 +1,0 @@
-^C:\USERS\JORDAN\DOCUMENTS\GITHUB\WORDS\WORDS.MKB
-"C:\Marmalade\7.8\s3e\python\python.exe" "C:\Marmalade\7.8\s3e\makefile_builder\mkb.py" "c:/Users/Jordan/Documents/GitHub/words/words.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project
