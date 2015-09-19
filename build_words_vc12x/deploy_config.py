@@ -4,9 +4,9 @@
 # tool during the build process.
 
 config = {}
-cmdline = ['F:/Marmalade/7.9/s3e/makefile_builder/mkb.py', 'f:/Users/Teal/Documents/Marmalade/words/words.mkb', '--buildenv=VC12X', '--default-buildenv=vc12x', '--msvc-project', '--deploy-only']
-mkb = 'f:/Users/Teal/Documents/Marmalade/words/words.mkb'
-mkf = ['f:\\marmalade\\7.9\\s3e\\s3e-default.mkf', 'f:\\marmalade\\7.9\\extensions\\s3eamazonads\\s3eamazonads.mkf', 'f:\\marmalade\\7.9\\modules\\iwutil\\iwutil.mkf', 'f:\\marmalade\\7.9\\modules\\third_party\\libjpeg\\libjpeg.mkf', 'f:\\marmalade\\7.9\\modules\\third_party\\libpng\\libpng.mkf', 'f:\\marmalade\\7.9\\modules\\third_party\\zlib\\zlib.mkf', 'f:\\marmalade\\7.9\\platform_libs\\android\\amazon-ads-android-sdk\\amazon-ads-android-sdk.mkf', 'f:\\marmalade\\7.9\\platform_libs\\iphone\\amazon-ads-ios-sdk\\amazon-ads-ios-sdk.mkf', 'f:\\marmalade\\7.9\\modules\\iw2dscenegraphcore\\iw2dscenegraphcore.mkf', 'f:\\marmalade\\7.9\\modules\\iw2dscenegraph\\iw2dscenegraph.mkf', 'f:\\marmalade\\7.9\\modules\\iw2d\\iw2d.mkf', 'f:\\marmalade\\7.9\\modules\\iwgx\\iwgx.mkf', 'f:\\marmalade\\7.9\\modules\\iwgl\\iwgl.mkf', 'f:\\marmalade\\7.9\\modules\\iwgeom\\iwgeom.mkf', 'f:\\marmalade\\7.9\\modules\\iwresmanager\\iwresmanager.mkf', 'f:\\marmalade\\7.9\\extensions\\pvrtextool\\pvrtextool.mkf', 'f:\\marmalade\\7.9\\modules\\iwgxfont\\iwgxfont.mkf', 'f:\\marmalade\\7.9\\modules\\third_party\\tiniconv\\tiniconv.mkf', 'f:\\marmalade\\7.9\\modules\\iwtween\\iwtween.mkf']
+cmdline = ['C:/Marmalade/7.8/s3e/makefile_builder/mkb.py', 'c:/Users/Jordan/Documents/GitHub/words/words.mkb', '--buildenv=VC12X', '--default-buildenv=vc12x', '--msvc-project', '--deploy-only']
+mkb = 'c:/Users/Jordan/Documents/GitHub/words/words.mkb'
+mkf = ['c:\\marmalade\\7.8\\s3e\\s3e-default.mkf', 'c:\\marmalade\\7.8\\extensions\\s3eamazonads\\s3eamazonads.mkf', 'c:\\marmalade\\7.8\\modules\\iwutil\\iwutil.mkf', 'c:\\marmalade\\7.8\\modules\\third_party\\libjpeg\\libjpeg.mkf', 'c:\\marmalade\\7.8\\modules\\third_party\\libpng\\libpng.mkf', 'c:\\marmalade\\7.8\\modules\\third_party\\zlib\\zlib.mkf', 'c:\\marmalade\\7.8\\platform_libs\\android\\amazon-ads-android-sdk\\amazon-ads-android-sdk.mkf', 'c:\\marmalade\\7.8\\platform_libs\\iphone\\amazon-ads-ios-sdk\\amazon-ads-ios-sdk.mkf', 'c:\\marmalade\\7.8\\modules\\iw2dscenegraphcore\\iw2dscenegraphcore.mkf', 'c:\\marmalade\\7.8\\modules\\iw2dscenegraph\\iw2dscenegraph.mkf', 'c:\\marmalade\\7.8\\modules\\iw2d\\iw2d.mkf', 'c:\\marmalade\\7.8\\modules\\iwgx\\iwgx.mkf', 'c:\\marmalade\\7.8\\modules\\iwgl\\iwgl.mkf', 'c:\\marmalade\\7.8\\modules\\iwgeom\\iwgeom.mkf', 'c:\\marmalade\\7.8\\modules\\iwresmanager\\iwresmanager.mkf', 'c:\\marmalade\\7.8\\extensions\\pvrtextool\\pvrtextool.mkf', 'c:\\marmalade\\7.8\\modules\\iwgxfont\\iwgxfont.mkf', 'c:\\marmalade\\7.8\\modules\\third_party\\tiniconv\\tiniconv.mkf', 'c:\\marmalade\\7.8\\modules\\iwtween\\iwtween.mkf']
 
 class DeployConfig(object):
     pass
@@ -16,39 +16,35 @@ class DeployConfig(object):
 assets = {}
 
 assets['Default'] = [
-    ('f:/Users/Teal/Documents/Marmalade/words\data', '.', 0),
+    ('c:/Users/Jordan/Documents/GitHub/words\data', '.', 0),
 ]
 
 ######### DEFAULT CONFIG #############
 
 class DefaultConfig(DeployConfig):
     embed_icf = -1
-    name = 'words'
+    name = 'TestDeploy'
     pub_sign_key = 0
     priv_sign_key = 0
-    caption = 'words'
-    long_caption = 'words'
+    caption = 'TestDeploy'
+    long_caption = 'TestDeploy'
     version = [0, 0, 1]
-    config = ['f:/Users/Teal/Documents/Marmalade/words/data/app.icf']
-    data_dir = 'f:/Users/Teal/Documents/Marmalade/words/data'
-    mkb_dir = 'f:/Users/Teal/Documents/Marmalade/words'
+    config = ['c:/Users/Jordan/Documents/GitHub/words/data/app.icf']
+    data_dir = 'c:/Users/Jordan/Documents/GitHub/words/data'
+    mkb_dir = 'c:/Users/Jordan/Documents/GitHub/words'
     iphone_link_lib = ['s3eAmazonAds']
-    osx_ext_dll = ['f:/marmalade/7.9/extensions/pvrtextool/lib/osx/libPVRTexTool.dylib']
+    osx_ext_dll = ['c:/marmalade/7.8/extensions/pvrtextool/lib/osx/libPVRTexTool.dylib']
     wp81_extra_pri = []
     ws8_ext_capabilities = []
     ws8_ext_native_only_dll = []
-    win10_ext_uap_capabilities = []
-    win10_ext_native_dll = []
     ws81_ext_native_only_dll = []
     android_external_res = []
-    win32_ext_dll = ['f:/marmalade/7.9/extensions/pvrtextool/lib/win32/PVRTexTool.dll']
-    win10_ext_sdk_ref = []
+    win32_ext_dll = ['c:/marmalade/7.8/extensions/pvrtextool/lib/win32/PVRTexTool.dll']
     wp8_ext_capabilities = []
     ws8_extra_res = []
     ws81_ext_managed_dll = []
-    iphone_link_libdir = ['f:/marmalade/7.9/extensions/s3eamazonads/lib/iphone']
-    android_extra_application_manifest = ['f:/marmalade/7.9/extensions/s3eamazonads/source/android/ExtraAppManifests.xml']
-    win10_extra_res = []
+    iphone_link_libdir = ['c:/marmalade/7.8/extensions/s3eamazonads/lib/iphone']
+    android_extra_application_manifest = ['c:/marmalade/7.8/extensions/s3eamazonads/source/android/ExtraAppManifests.xml']
     ws8_ext_native_dll = []
     android_external_assets = []
     blackberry_extra_descriptor = []
@@ -57,7 +53,6 @@ class DefaultConfig(DeployConfig):
     wp81_ext_sdk_ref = []
     iphone_link_libdirs = []
     wp81_ext_device_capabilities = []
-    win10_ext_capabilities = []
     linux_ext_lib = []
     android_ext_min_sdk_version = [4]
     wp81_ext_native_only_dll = []
@@ -65,35 +60,31 @@ class DefaultConfig(DeployConfig):
     ws8_ext_sdk_manifest_part = []
     ws8_ext_device_capabilities = []
     ws81_extra_pri = []
-    android_external_jars = ['f:/marmalade/7.9/platform_libs/android/amazon-ads-android-sdk/third_party/lib/amazon-ads-5.5.149.jar', 'f:/marmalade/7.9/extensions/s3eamazonads/lib/android/s3eAmazonAds.jar']
+    android_external_jars = ['c:/marmalade/7.8/platform_libs/android/amazon-ads-android-sdk/third_party/lib/amazon-ads-5.4.235.jar', 'c:/marmalade/7.8/extensions/s3eamazonads/lib/android/s3eAmazonAds.jar']
     win8_winrt_extra_res = []
     wp81_ext_sdk_manifest_part = []
+    android_supports_gl_texture = []
     wp81_extra_res = []
     wp81_ext_managed_dll = []
     wp81_ext_capabilities = []
-    win10_ext_managed_dll = []
     iphone_extra_plist = []
     ws81_ext_sdk_manifest_part = []
     ws81_ext_device_capabilities = []
-    android_supports_gl_texture = []
     ws8_ext_sdk_ref = []
     iphone_extra_string = []
     tizen_so = []
     wp8_ext_native_dll = []
-    win10_ext_sdk_manifest_part = []
-    win10_extra_pri = []
-    win10_ext_device_capabilities = []
     win8_phone_extra_res = []
     win32_aux_dll = []
     win8_store_extra_res = []
-    iphone_link_opts = ['-Ff:/marmalade/7.9/platform_libs/iphone/amazon-ads-ios-sdk/third_party/Ads -framework AmazonAd', '-weak_framework AdSupport -weak_framework CoreLocation -weak_framework SystemConfiguration', '-weak_framework CoreTelephony -weak_framework MediaPlayer', '-weak_framework EventKit -weak_framework EventKitUI']
+    iphone_link_opts = ['-Fc:/marmalade/7.8/platform_libs/iphone/amazon-ads-ios-sdk/third_party/Ads -framework AmazonAd', '-weak_framework AdSupport -weak_framework CoreLocation -weak_framework SystemConfiguration', '-weak_framework CoreTelephony -weak_framework MediaPlayer', '-weak_framework EventKit -weak_framework EventKitUI']
     ws81_ext_sdk_ref = []
     wp8_extra_res = []
     ws81_ext_native_dll = []
     ws8_extra_pri = []
     wp8_ext_managed_dll = []
     android_extra_packages = []
-    android_so = ['f:/marmalade/7.9/extensions/s3eamazonads/lib/android/libs3eAmazonAds.so']
+    android_so = ['c:/marmalade/7.8/extensions/s3eamazonads/lib/android/libs3eAmazonAds.so']
     wp8_ext_sdk_ref = []
     osx_extra_res = []
     ws81_extra_res = []
@@ -103,48 +94,48 @@ class DefaultConfig(DeployConfig):
     android_extra_strings = []
     target = {
          'mips' : {
-                   'debug'   : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Debug_words_VC12X_gcc_mips/words.so',
-                   'release' : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Release_words_VC12X_gcc_mips/words.so',
+                   'debug'   : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Debug_words_VC12X_gcc_mips/words.so',
+                   'release' : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Release_words_VC12X_gcc_mips/words.so',
                  },
          'gcc_x86' : {
-                   'debug'   : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Debug_words_VC12X_gcc_x86/words.so',
-                   'release' : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Release_words_VC12X_gcc_x86/words.so',
+                   'debug'   : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Debug_words_VC12X_gcc_x86/words.so',
+                   'release' : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Release_words_VC12X_gcc_x86/words.so',
                  },
          'gcc_x86_tizen' : {
-                   'debug'   : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Debug_words_VC12X_gcc_x86_tizen/words.s86',
-                   'release' : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Release_words_VC12X_gcc_x86_tizen/words.s86',
+                   'debug'   : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Debug_words_VC12X_gcc_x86_tizen/words.s86',
+                   'release' : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Release_words_VC12X_gcc_x86_tizen/words.s86',
                  },
          'firefoxos' : {
-                   'debug'   : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Debug_words_VC12X_firefoxos/words.js',
-                   'release' : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Release_words_VC12X_firefoxos/words.js',
+                   'debug'   : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Debug_words_VC12X_firefoxos/words.js',
+                   'release' : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Release_words_VC12X_firefoxos/words.js',
                  },
          'mips_gcc' : {
-                   'debug'   : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Debug_words_VC12X_gcc_mips/words.so',
-                   'release' : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Release_words_VC12X_gcc_mips/words.so',
+                   'debug'   : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Debug_words_VC12X_gcc_mips/words.so',
+                   'release' : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Release_words_VC12X_gcc_mips/words.so',
                  },
          'arm_gcc' : {
-                   'debug'   : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Debug_words_VC12X_gcc_arm/words.s3e',
-                   'release' : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Release_words_VC12X_gcc_arm/words.s3e',
+                   'debug'   : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Debug_words_VC12X_gcc_arm/words.s3e',
+                   'release' : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Release_words_VC12X_gcc_arm/words.s3e',
                  },
          'naclx86_64' : {
-                   'debug'   : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Debug_words_VC12X_gcc_naclx86_64/words.so.s64',
-                   'release' : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Release_words_VC12X_gcc_naclx86_64/words.so.s64',
+                   'debug'   : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Debug_words_VC12X_gcc_naclx86_64/words.so.s64',
+                   'release' : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Release_words_VC12X_gcc_naclx86_64/words.so.s64',
                  },
          'aarch64_gcc' : {
-                   'debug'   : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Debug_words_VC12X_gcc_aarch64/words.s3e',
-                   'release' : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Release_words_VC12X_gcc_aarch64/words.s3e',
+                   'debug'   : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Debug_words_VC12X_gcc_aarch64/words.s3e',
+                   'release' : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Release_words_VC12X_gcc_aarch64/words.s3e',
                  },
          'gcc_x86_android' : {
-                   'debug'   : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Debug_words_VC12X_gcc_x86_android/words.so',
-                   'release' : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Release_words_VC12X_gcc_x86_android/words.so',
+                   'debug'   : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Debug_words_VC12X_gcc_x86_android/words.so',
+                   'release' : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Release_words_VC12X_gcc_x86_android/words.so',
                  },
          'arm' : {
-                   'debug'   : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Debug_words_VC12X_arm/words.s3e',
-                   'release' : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Release_words_VC12X_arm/words.s3e',
+                   'debug'   : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Debug_words_VC12X_arm/words.s3e',
+                   'release' : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Release_words_VC12X_arm/words.s3e',
                  },
          'x86' : {
-                   'debug'   : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Debug_words_VC12X_x86/words.s86',
-                   'release' : r'f:/Users/Teal/Documents/Marmalade/words/build_words_vc12x/Release_words_VC12X_x86/words.s86',
+                   'debug'   : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Debug_words_VC12X_x86/words.s86',
+                   'release' : r'c:/Users/Jordan/Documents/GitHub/words/build_words_vc12x/Release_words_VC12X_x86/words.s86',
                  },
         }
     arm_arch = ''
