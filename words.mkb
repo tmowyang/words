@@ -1,4 +1,5 @@
 #!/usr/bin/env mkb
+<<<<<<< HEAD
 files
 {
     words.cpp
@@ -6,18 +7,17 @@ files
 	build_words_vc12x\Dictionary.h
 }
 
+=======
+ 
+>>>>>>> e41bc20eb16ea0889b993f097670b06b7c09650b
 subprojects
 {
-    iwutil
-    iw2dscenegraphcore
-    iw2dscenegraph
-    iwgx
-    iwresmanager
-    iwtween
+    iw2d
 }
-
-deployment
+ 
+files
 {
+<<<<<<< HEAD
 }
 #### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
 deployments
@@ -25,3 +25,7 @@ deployments
 	["Default"]
 	name='TestDeploy'
 }
+=======
+    source/main.cpp
+}
+>>>>>>> e41bc20eb16ea0889b993f097670b06b7c09650b
