@@ -1,19 +1,11 @@
 #!/usr/bin/env mkb
-files
-{
-    words.cpp
-}
-
+ 
 subprojects
 {
-    iwutil
-    iw2dscenegraphcore
-    iw2dscenegraph
-    iwgx
-    iwresmanager
-    iwtween
+    iw2d
 }
-
-deployment
+ 
+files
 {
+    source/main.cpp
 }
