@@ -1,0 +1,19 @@
+1>------ Build started: Project: words_vc12x, Configuration: x86 Debug Win32 ------
+1>  Performing Custom Build Tools
+1>  msg: option 'default-buildenv' overridden by command line
+1>  F:\Marmalade\7.9\s3e\makefile_builder\mkb.py f:/Users/Teal/Documents/Marmalade/words/words.mkb --buildenv=VC12X --default-buildenv=vc12x --msvc-project
+1>  Building project: f:/Users/Teal/Documents/Marmalade/words/words.mkb
+1>  MARMALADE_HOME: C:/Users/Teal/Documents/Marmalade
+1>  done
+1>  Iw2DSceneGraph.cpp
+1>  Iw2DSceneGraphCore.cpp
+1>  IwTween.cpp
+1>  PVRTexTool_interface.cpp
+1>  s3eAmazonAds_interface.cpp
+1>  words.cpp
+1>     Creating library Debug_words_vc12x_x86\words.lib and object Debug_words_vc12x_x86\words.exp
+1>  words_vc12x.vcxproj -> f:\Users\Teal\Documents\Marmalade\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86
+1>  F:\Marmalade\7.9\s3e\python\python.exe .\process_map.py "f:\Users\Teal\Documents\Marmalade\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86"
+1>  "s3e_plink" -l "f:\Users\Teal\Documents\Marmalade\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86" 
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
