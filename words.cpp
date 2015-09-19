@@ -2,6 +2,7 @@
 #include "IwDebug.h"
 #include "Iw2DSceneGraph.h"
 #include "IwGx.h"
+#include "Dictionary.h"
 
 using namespace Iw2DSceneGraphCore;
 using namespace Iw2DSceneGraph;
@@ -18,6 +19,9 @@ int main()
 
     // Create root node
     g_SceneRoot = new CNode();
+
+	Dictionary* wordDict = new Dictionary("AllWords.csv");
+
 
     // Add 2D scene graph nodes to the root node here
 

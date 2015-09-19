@@ -1,42 +1,4 @@
-﻿Build started 9/19/2015 10:40:11 AM.
-     1>Project "f:\Users\Teal\Documents\Marmalade\words\build_words_vc12x\words_vc12x.vcxproj" on node 2 (Build target(s)).
-     1>CustomBuild:
-         Performing Custom Build Tools
-         msg: option 'default-buildenv' overridden by command line
-         F:\Marmalade\7.9\s3e\makefile_builder\mkb.py f:/Users/Teal/Documents/Marmalade/words/words.mkb --buildenv=VC12X --default-buildenv=vc12x --msvc-project
-         Building project: f:/Users/Teal/Documents/Marmalade/words/words.mkb
-         MARMALADE_HOME: C:/Users/Teal/Documents/Marmalade
-         done
-       ClCompile:
-         F:\Marmalade\7.9\s3e\bin\CL.exe /c /If:/marmalade/7.9/extensions/s3eamazonads/h /If:/marmalade/7.9/modules/iwutil/h /If:/marmalade/7.9/modules/third_party/libjpeg/h /If:/marmalade/7.9/modules/third_party/zlib/h /If:/marmalade/7.9/modules/third_party/libpng/h /If:/marmalade/7.9/modules/iw2dscenegraphcore/h /If:/marmalade/7.9/modules/iw2dscenegraph/h /If:/marmalade/7.9/modules/iw2d/h /If:/marmalade/7.9/modules/iwgx/h /If:/marmalade/7.9/modules/iwgl/h /If:/marmalade/7.9/modules/iwgeom/h /If:/marmalade/7.9/modules/iwresmanager/h /If:/marmalade/7.9/extensions/pvrtextool/h /If:/marmalade/7.9/modules/iwgxfont/h /If:/marmalade/7.9/modules/third_party/tiniconv/source /If:/marmalade/7.9/modules/iwtween/h /If:/marmalade/7.9/s3e/h /If:/marmalade/7.9/s3e/h/ext /If:/marmalade/7.9/s3e/h/std /If:/marmalade/7.9/s3e/h/std/c++ /If:/marmalade/7.9/s3e/h/ext_legacy /If:/marmalade/7.9/s3e/h/legacy /I. /ZI /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_words_vc12x_x86\\" /Fd"Debug_words_vc12x_x86\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /FI"f:\Users\Teal\Documents\Marmalade\words\build_words_vc12x\temp_defines_debug.h" f:\marmalade\7.9\modules\iw2dscenegraph\source\Iw2DSceneGraph.cpp f:\marmalade\7.9\modules\iw2dscenegraphcore\source\Iw2DSceneGraphCore.cpp f:\marmalade\7.9\modules\iwtween\source\IwTween.cpp f:\marmalade\7.9\extensions\pvrtextool\interface\PVRTexTool_interface.cpp f:\marmalade\7.9\extensions\s3eamazonads\interface\s3eAmazonAds_interface.cpp ..\words.cpp
-         Iw2DSceneGraph.cpp
-         Iw2DSceneGraphCore.cpp
-         IwTween.cpp
-         PVRTexTool_interface.cpp
-         s3eAmazonAds_interface.cpp
-         words.cpp
-       Link:
-         F:\Marmalade\7.9\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_words_vc12x_x86\words.s86" /INCREMENTAL /NOLOGO /LIBPATH:f:/marmalade/7.9/modules/iwutil/lib/x86 /LIBPATH:f:/marmalade/7.9/modules/third_party/libjpeg/lib/x86 /LIBPATH:f:/marmalade/7.9/modules/third_party/zlib/lib/x86 /LIBPATH:f:/marmalade/7.9/modules/third_party/libpng/lib/x86 /LIBPATH:f:/marmalade/7.9/modules/iw2d/lib/x86 /LIBPATH:f:/marmalade/7.9/modules/iwgx/atitools /LIBPATH:f:/marmalade/7.9/modules/iwgx/lib/x86 /LIBPATH:f:/marmalade/7.9/modules/iwgl/lib/x86 /LIBPATH:f:/marmalade/7.9/modules/iwgeom/lib/x86 /LIBPATH:f:/marmalade/7.9/modules/iwresmanager/lib/x86 /LIBPATH:f:/marmalade/7.9/modules/iwgxfont/lib/x86 /LIBPATH:f:/marmalade/7.9/modules/third_party/tiniconv/lib/x86 /LIBPATH:f:/marmalade/7.9/s3e/lib/x86 vc6_compat.lib iwutil_d.lib jpeg_d.lib z_d.lib png_d.lib iw2d_d.lib ATI_Compress_MT_VC7.lib iwgx_d.lib iwgl_d.lib iwgeom_d.lib iwresmanager_d.lib iwgxfont_d.lib tiniconv_d.lib s3e_cpp_d.lib s3e_vc12_d.lib s3e_api_iwgl.lib /NODEFAULTLIB:libcmt /MANIFEST:NO /DEBUG /PDB:"Debug_words_vc12x_x86\words.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_words_vc12x_x86\words.lib" /MACHINE:X86  /include:_IwMain /include:_raise /include:_DllEntryPoint@12 /DLL Debug_words_vc12x_x86\Iw2DSceneGraph.obj
-         Debug_words_vc12x_x86\Iw2DSceneGraphCore.obj
-         Debug_words_vc12x_x86\IwTween.obj
-         Debug_words_vc12x_x86\PVRTexTool_interface.obj
-         Debug_words_vc12x_x86\s3eAmazonAds_interface.obj
-         Debug_words_vc12x_x86\words.obj
-            Creating library Debug_words_vc12x_x86\words.lib and object Debug_words_vc12x_x86\words.exp
-         words_vc12x.vcxproj -> f:\Users\Teal\Documents\Marmalade\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86
-       PostBuildEvent:
-         echo F:\Marmalade\7.9\s3e\python\python.exe .\process_map.py "f:\Users\Teal\Documents\Marmalade\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86"
-         chdir /d "f:\marmalade\7.9\s3e\tools"
-         F:\Marmalade\7.9\s3e\python\python.exe .\process_map.py "f:\Users\Teal\Documents\Marmalade\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86"
-         echo "s3e_plink" -l "f:\Users\Teal\Documents\Marmalade\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86" 
-         chdir /d "f:\marmalade\7.9\s3e\bin"
-         "s3e_plink" -l "f:\Users\Teal\Documents\Marmalade\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86" 
-         
-         :VCEnd
-         F:\Marmalade\7.9\s3e\python\python.exe .\process_map.py "f:\Users\Teal\Documents\Marmalade\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86"
-         "s3e_plink" -l "f:\Users\Teal\Documents\Marmalade\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86" 
-     1>Done Building Project "f:\Users\Teal\Documents\Marmalade\words\build_words_vc12x\words_vc12x.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:04.08
+﻿     Creating library Debug_words_vc12x_x86\words.lib and object Debug_words_vc12x_x86\words.exp
+  words_vc12x.vcxproj -> C:\Users\Jordan\Documents\GitHub\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86
+  C:\Marmalade\7.8\s3e\python\python.exe .\process_map.py "C:\Users\Jordan\Documents\GitHub\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86"
+  "s3e_plink" -l "C:\Users\Jordan\Documents\GitHub\words\build_words_vc12x\Debug_words_vc12x_x86\words.s86" 

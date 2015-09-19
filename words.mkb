@@ -2,6 +2,8 @@
 files
 {
     words.cpp
+	build_words_vc12x\Dictionary.cpp
+	build_words_vc12x\Dictionary.h
 }
 
 subprojects
@@ -16,4 +18,10 @@ subprojects
 
 deployment
 {
+}
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	["Default"]
+	name='TestDeploy'
 }
