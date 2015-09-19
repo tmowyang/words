@@ -1,19 +1,5 @@
 #!/usr/bin/env mkb
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-files
-{
-    words.cpp
-	build_words_vc12x\Dictionary.cpp
-	build_words_vc12x\Dictionary.h
-}
-
-=======
- 
->>>>>>> e41bc20eb16ea0889b993f097670b06b7c09650b
->>>>>>> 13ca5a4876691e83ef055551397f919009351d04
 subprojects
 {
     iw2d
@@ -21,10 +7,11 @@ subprojects
 
 files
 {
-<<<<<<< HEAD
     [source]
     (source)
     main.cpp
+	Dictionary.cpp
+	Dictionary.h
 }
 
 assets
@@ -32,17 +19,3 @@ assets
     (data)
     textures
 }
-=======
-<<<<<<< HEAD
-}
-#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
-deployments
-{
-	["Default"]
-	name='TestDeploy'
-}
-=======
-    source/main.cpp
-}
->>>>>>> e41bc20eb16ea0889b993f097670b06b7c09650b
->>>>>>> 13ca5a4876691e83ef055551397f919009351d04
