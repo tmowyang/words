@@ -143,3 +143,5 @@ build_words_vc12x/vs_output_9756.log
 build_words_vc12x/words_vc12x.opensdf
 build_words_vc12x/words_vc12x.sdf
 build_words_vc12x/words_vc12x.v12.suo
+data-ram/
+data/development.icf
