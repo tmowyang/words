@@ -10,6 +10,7 @@ files
     [source]
     (source)
     main.cpp
+	input.cpp
 	Dictionary.cpp
 	Dictionary.h
 }

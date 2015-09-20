@@ -1434,6 +1434,7 @@
   <ItemGroup>
     <ClCompile Include="..\source\Dictionary.cpp" />
     <ClCompile Include="f:\marmalade\7.9\extensions\pvrtextool\interface\PVRTexTool_interface.cpp" />
+    <ClCompile Include="..\source\input.cpp" />
     <ClCompile Include="..\source\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
