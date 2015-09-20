@@ -9,18 +9,24 @@ class Dictionary;
 
 //=================================
 // included dependencies
-using namespace std;
-#include <list>
 
+#include <list>
+#include <string>
+
+using namespace std;
 
 class Dictionary
 {
 	public:
-		Dictionary(string fileName);
-		bool isWord(string word);
+		Dictionary();
+		bool isWord(std::string word);
 
 	private:
-		list<string> data;
+		void initMemory();
+		void loadDictionary();
+
+		list<string> dictList;
+		const string dictFilePath;
 };
 
 #endif
